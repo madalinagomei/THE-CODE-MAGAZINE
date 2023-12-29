@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="style.css" rel="stylesheet" />
     <title>The Code Magazine</title>
   </head>
   <body>
-    <header>
+    <header class="main-header">
       <h1>The Code Magazine</h1>
       <nav>
         <a href="blog.html">Blog</a>
@@ -24,7 +26,9 @@
           height="50"
           width="50"
         />
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <p id="author">
+          Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+        </p>
         <img
           src="/images/post-img.jpg"
           alt="HTML code on a screen"
@@ -87,7 +91,6 @@
       </ul>
 
       Hopefully you learned something new here. See you next time!
-      <h4>Related post</h4>
     </article>
     <aside>
       <h4>Related posts</h4>
@@ -124,6 +127,8 @@
         </li>
       </ul>
     </aside>
-    <footer>Copyright &copy; 2007 The Code Magazine</footer>
+    <footer>
+      <p id="copyright">Copyright &copy; 2007 The Code Magazine</p>
+    </footer>
   </body>
 </html>
