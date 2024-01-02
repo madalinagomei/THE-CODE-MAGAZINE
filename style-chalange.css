@@ -1,0 +1,67 @@
+
+body{
+    font-family: sanas-serif;
+    line-height: 1.4;
+}
+/* -----product------ */
+ .product {
+    border: 4px solid #000;
+}
+
+.product-title {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    background-color: #f7f7f7;
+    
+}
+/* ------product info---- */
+.price {
+  font-size: 24px;
+  
+}
+.shipping {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#777;
+
+}
+
+.more-info:link,
+.more-info:visited {
+    color:#000;
+  
+}
+
+
+.more-info:hover,
+.more-info:active{
+    text-decoration: none;
+ 
+}
+
+/* ---product details----- */
+
+.details-title{
+    text-transform: uppercase;
+    font-size:15px
+
+}
+.product-details {
+    list-style: square;
+    
+}
+.add-cart{
+    background-color: #000;
+    border:none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.add-cart:hover {
+background-color: #fff;
+    color: #000;
+}
