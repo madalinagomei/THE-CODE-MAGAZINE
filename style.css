@@ -150,3 +150,25 @@ h1::first-letter{
 font-style: normal;
 margin-right: 5px;
 }
+
+
+/* -------------floats--------- */
+
+.author-image{
+    float:left;
+    margin-bottom: 20px;;
+}
+.author {
+    float: left;
+margin-left: 20px;
+margin-top: 10px;
+
+}
+
+h1{
+    float:left;
+}
+
+nav{
+    float: right;
+}
