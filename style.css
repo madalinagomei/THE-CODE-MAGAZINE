@@ -9,6 +9,11 @@ body {
     border-top: 10px solid #1098ad;
 }
 
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
 .main-header {
     background-color: #f7f7f7;
     padding: 20px 40px;
@@ -104,5 +109,5 @@ a:active {
 }
 .post-image{
 width: 50%;
-
+height: auto;
 }
