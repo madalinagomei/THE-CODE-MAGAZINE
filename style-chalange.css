@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding: 0;
+            box-sizing: border-box;
 }
 body{
     font-family: sanas-serif;
@@ -136,4 +137,25 @@ margin-top: 30px;
 .add-cart:hover {
 background-color: #fff;
     color: #000;
+}
+
+
+.product-image{
+width: 250px;
+    float: left;
+}
+
+.information{
+width: 250px;
+    float: left;
+}
+
+.details{
+    width: 250px;
+        float: right;
+
+}
+.add cart {
+    float: both;
+
 }
