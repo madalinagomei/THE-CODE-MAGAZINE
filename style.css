@@ -37,8 +37,9 @@ aside {
     background-color: #f7f7f7;
     border-top: 5px solid #1098ad;
     border-bottom: 5px solid #1098ad;
-    padding: 50px 0;
-    width: 500px;
+    padding: 50px 40px;
+    box-sizing: border-box;
+
 }
 h1, h2, h3{
     color: #1098ad;
@@ -116,6 +117,7 @@ h2::before {
 }
 .related {
     list-style: none;
+    margin-left: 0;
 }
 
 
