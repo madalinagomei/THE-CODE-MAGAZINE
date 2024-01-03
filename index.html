@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link href="style.css" rel="stylesheet" />
-    <title>The Code Magazine</title>
+    <title>The Basic Language of the Web</title>
   </head>
   <body>
     <div class="container">
-      <header class="main-header">
+      <header class="main-header clearfix">
         <h1>The Code Magazine</h1>
         <nav>
           <a href="blog.html">Blog</a>
@@ -24,7 +24,7 @@
           <img
             class="author-image"
             src="images/laura-jones.jpg"
-            alt="Headshot of laura Jones"
+            alt="Headshot of Laura Jones"
             height="50"
             width="50"
           />
@@ -53,9 +53,9 @@
         <h3>What is HTML?</h3>
         <p>
           HTML stands for <strong>H</strong>yper<strong>T</strong>ext
-          <strong>M</strong>arkup Language. It's a markup language that web
-          developers use to structure and describe the content of a webpage (not
-          a programming language).
+          <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
+          language that web developers use to structure and describe the content
+          of a webpage (not a programming language).
         </p>
         <p>
           HTML consists of elements that describe different types of content:
@@ -65,10 +65,11 @@
 
         <p>In HTML, each element is made up of 3 parts:</p>
         <ol>
-          <li>The opening tag The closing tag</li>
+          <li class="first-li">The opening tag</li>
+          <li>The closing tag</li>
           <li>The actual element</li>
-          <li>You can learn more at the MDN Web Docs.</li>
         </ol>
+
         <p>
           You can learn more at
           <a href="https://developer.mozilla.org/en-US/" target="_blank"
@@ -78,8 +79,8 @@
         <h3>Why should you learn HTML?</h3>
 
         <p>
-          are countless reasons for learning the fundamental language of the
-          web. Here are 5 of them:
+          There are countless reasons for learning the fundamental language of
+          the web. Here are 5 of them:
         </p>
 
         <ul>
@@ -94,10 +95,11 @@
         </ul>
         <p>Hopefully you learned something new here. See you next time!</p>
       </article>
-      <h4>Related posts</h4>
-      <aside class="related">
-        <ul>
-          <li class="related-author">
+      <aside>
+        <h4>Related posts</h4>
+
+        <ul class="related">
+          <li>
             <img
               src="./images/related-1.jpg"
               alt="Men writing on computer"
@@ -105,7 +107,7 @@
               height="75"
             />
             <a href="#" target="_blank">How to Learn Web Development</a>
-            <p>By Johans Schmedtmann</p>
+            <p class="related-author">By Johans Schmedtmann</p>
           </li>
           <li class="related-author">
             <img
@@ -117,7 +119,7 @@
             <a href="#" target="_blank">The Unknown Powers of CSS</a>
             <p>By Jim Dillon</p>
           </li>
-          <li class="related-author">
+          <li>
             <img
               src="./images/related-3.jpg"
               alt="image with code"
@@ -125,12 +127,14 @@
               height="75"
             />
             <a href="#" target="_blank">Why JavaScript is Awesome</a>
-            <p>By Matilda</p>
+            <p class="related-author">By Matilda</p>
           </li>
         </ul>
       </aside>
       <footer>
-        <p id="copyright">Copyright &copy; 2007 The Code Magazine</p>
+        <p id="copyright" class="copyright text">
+          Copyright &copy; 2007 The Code Magazine
+        </p>
       </footer>
     </div>
     <button>❤Like</button>
