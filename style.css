@@ -19,30 +19,22 @@ body {
 .main-header {
     background-color: #f7f7f7;
     padding: 20px 40px;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
 }
 
-nav {
-font-size: 18px;
-/* text-align: center; */
-}
 
-article{
-    margin-bottom: 0px;
-    flex: 1;
- }
-.post-header{
-    margin-bottom: 40px;
-    
-}
 aside {
     background-color: #f7f7f7;
     border-top: 5px solid #1098ad;
     border-bottom: 5px solid #1098ad;
     padding: 50px 40px;
-    flex: 0 0 300px;
-
 }
+
+.post-header{
+    margin-bottom: 40px;
+    
+}
+
 h1, h2, h3{
     color: #1098ad;
 }
@@ -110,7 +102,7 @@ h2::before {
     font-size: 18px;
 }
 #copyright{
-    color: blue;
+    font-size: 16px;;
 
 }
 .text { color: yellow;
@@ -222,7 +214,7 @@ clear: both;
 .author-box{
     display:flex;
     align-items: center;
-    margin-bottom: ;
+    margin-bottom: 15px ;
 }
 .author{
     margin-bottom: 0;
@@ -232,6 +224,7 @@ clear: both;
     display: flex;
     align-items: center;
     gap: 20px;
+    margin-bottom: 20px;
 }
 
 .related-link:link{
@@ -247,9 +240,45 @@ clear: both;
     font-weight: normal;
     font-style: italic;
 }
-.row{
+
+
+/* flexbox layout */
+
+/* .row{
     display:flex;
     align-items: flex-start;
 gap:75px;
 margin-bottom: 60px;
+}
+
+article {
+    margin-bottom: 0px;
+    flex: 1;
+}
+
+
+} */
+/* CSS GRID LAYOUT */
+
+.container{
+display:grid;
+grid-template-columns: 1fr 300px;
+column-gap: 75px;
+row-gap: 60px;
+align-items: start;
+  }
+  .main-header{
+/* grid-column: 1 / span 2; */
+grid-column: 1 / -1;
+  }
+
+  article{
+
+  }
+  aside{
+
+
+}
+footer{
+grid-column: 1 / -1;
 }
